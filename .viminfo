@@ -11,10 +11,10 @@
 # hlsearch on (H) or off (h):
 ~H
 # Command Line History (newest to oldest):
+:wq
+|2,0,1589186036,,"wq"
 :q!
 |2,0,1589180180,,"q!"
-:wq
-|2,0,1589179983,,"wq"
 
 # Search String History (newest to oldest):
 
@@ -33,18 +33,18 @@
 |3,1,36,0,1,0,1589180150," "
 
 # File marks:
-'0  94  0  ~/applyTag.sh
-|4,48,94,0,1589180180,"~/applyTag.sh"
-'1  44  67  ~/applyTag.sh
-|4,49,44,67,1589179983,"~/applyTag.sh"
+'0  1  13  ~/test.txt
+|4,48,1,13,1589186036,"~/test.txt"
+'1  94  0  ~/applyTag.sh
+|4,49,94,0,1589180180,"~/applyTag.sh"
 '2  44  67  ~/applyTag.sh
 |4,50,44,67,1589179983,"~/applyTag.sh"
-'3  44  54  ~/applyTag.sh
-|4,51,44,54,1589179912,"~/applyTag.sh"
+'3  44  67  ~/applyTag.sh
+|4,51,44,67,1589179983,"~/applyTag.sh"
 '4  44  54  ~/applyTag.sh
 |4,52,44,54,1589179912,"~/applyTag.sh"
-'5  94  0  ~/applyTag.sh
-|4,53,94,0,1589179786,"~/applyTag.sh"
+'5  44  54  ~/applyTag.sh
+|4,53,44,54,1589179912,"~/applyTag.sh"
 '6  94  0  ~/applyTag.sh
 |4,54,94,0,1589179786,"~/applyTag.sh"
 '7  94  0  ~/applyTag.sh
@@ -55,18 +55,34 @@
 |4,57,94,0,1589179786,"~/applyTag.sh"
 
 # Jumplist (newest first):
+-'  1  13  ~/test.txt
+|4,39,1,13,1589186036,"~/test.txt"
+-'  94  0  ~/applyTag.sh
+|4,39,94,0,1589180180,"~/applyTag.sh"
 -'  94  0  ~/applyTag.sh
 |4,39,94,0,1589180180,"~/applyTag.sh"
 -'  44  0  ~/applyTag.sh
 |4,39,44,0,1589180069,"~/applyTag.sh"
+-'  44  0  ~/applyTag.sh
+|4,39,44,0,1589180069,"~/applyTag.sh"
 -'  44  67  ~/applyTag.sh
 |4,39,44,67,1589179983,"~/applyTag.sh"
+-'  44  67  ~/applyTag.sh
+|4,39,44,67,1589179983,"~/applyTag.sh"
+-'  44  54  ~/applyTag.sh
+|4,39,44,54,1589179912,"~/applyTag.sh"
 -'  44  54  ~/applyTag.sh
 |4,39,44,54,1589179912,"~/applyTag.sh"
 -'  94  0  ~/applyTag.sh
 |4,39,94,0,1589179857,"~/applyTag.sh"
 -'  94  0  ~/applyTag.sh
 |4,39,94,0,1589179857,"~/applyTag.sh"
+-'  94  0  ~/applyTag.sh
+|4,39,94,0,1589179857,"~/applyTag.sh"
+-'  94  0  ~/applyTag.sh
+|4,39,94,0,1589179857,"~/applyTag.sh"
+-'  94  0  ~/applyTag.sh
+|4,39,94,0,1589179786,"~/applyTag.sh"
 -'  94  0  ~/applyTag.sh
 |4,39,94,0,1589179786,"~/applyTag.sh"
 -'  1  0  ~/applyTag.sh
@@ -77,8 +93,23 @@
 |4,39,1,0,1589179671,"~/applyTag.sh"
 -'  1  0  ~/applyTag.sh
 |4,39,1,0,1589179671,"~/applyTag.sh"
+-'  1  0  ~/applyTag.sh
+|4,39,1,0,1589179671,"~/applyTag.sh"
+-'  1  0  ~/applyTag.sh
+|4,39,1,0,1589179671,"~/applyTag.sh"
+-'  1  0  ~/applyTag.sh
+|4,39,1,0,1589179671,"~/applyTag.sh"
+-'  1  0  ~/applyTag.sh
+|4,39,1,0,1589179671,"~/applyTag.sh"
 
 # History of marks within files (newest to oldest):
+
+> ~/test.txt
+	*	1589186035	0
+	"	1	13
+	^	1	14
+	.	1	13
+	+	1	13
 
 > ~/applyTag.sh
 	*	1589180167	0

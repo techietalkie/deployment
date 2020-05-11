@@ -67,3 +67,21 @@ git add .
 git commit -m "intial"
 git push -u origin master
 ./applyTag.sh -p techietalkie -r deployment -b release_v30
+wc
+git init
+git add .
+git commit -m "test"
+git push origin master
+git clone 
+ll
+cat applyTag.sh
+git clone https://techietalkie:pune_2020@github.com/techietalkie/deployment.git
+git commit -m "t"
+git push origin master
+/home/ec2-user/applyTag.sh -p techietalkie -r deployment -b release_v31
+git config --global user.email "techietalkie007@gmail.com"
+git config --global user.name "techietalkie"
+git commit -m "thththt"
+git push -u origin master
+git push -u origin release
+git push -u origin developer
