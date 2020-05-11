@@ -43,3 +43,27 @@ sudo /var/lib/jenkins/secrets/initialAdminPassword
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 sudo yum install git
 which git
+vi applyTag.sh
+chmod 755 applyTag.sh 
+./applyTag.sh -p techietalkie -r deployment -b release_test
+vi applyTag.sh
+./applyTag.sh -p techietalkie -r deployment -b release_test
+vi applyTag.sh
+./applyTag.sh -p techietalkie -r deployment -b release_test
+./applyTag.sh -p techietalkie -r deployment -b release_t
+./applyTag.sh -p techietalkie -r deployment -b release_v29
+vi applyTag.sh
+git init
+./applyTag.sh -p techietalkie -r deployment -b release_v30
+git add .
+./applyTag.sh -p techietalkie -r deployment -b release_v30
+git branch
+git status
+git checkout -b master
+./applyTag.sh -p techietalkie -r deployment -b release_v30
+git remote add origin https://github.com/techietalkie/deployment.git
+git status
+git add .
+git commit -m "intial"
+git push -u origin master
+./applyTag.sh -p techietalkie -r deployment -b release_v30
